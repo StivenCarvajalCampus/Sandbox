@@ -15,3 +15,114 @@
     display: flex;
     justify-content: flex-end !important;
 }
+
+.button-contact{
+    display: flex;
+    justify-content: center;
+}
+.box-0{
+min-height: 500px;
+background-image: url('images/fondo-bienvenido-grande.jpg');
+
+}
+.box-1{
+    background-color: coral;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.box-1-contenido{
+    max-width: 700px; 
+    padding: 60px 0;
+}
+.box-1-contenido img {
+    width: 250px;
+    transition: all 0.4s ease-in-out;
+}
+.box-1-contenido img:hover{
+    transform:scale(1.07);
+    cursor: pointer;
+
+}
+.box-1-contenido button {
+    width: 250px;
+    transition: all 0.4s ease-in-out;
+}
+.box-1-contenido :hover{
+    transform:scale(1.07);
+    cursor: pointer;
+}
+
+.box-2{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cajas {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.caja{
+    width: 250px;
+    display: flex;
+    margin:  20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s ease-in-out;
+}
+.caja i{
+    font-size: 60px;
+    color: #ec4c4c;
+}
+.caja:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border: none;
+    box-shadow: 3px 5px 5px #00000029;
+}
+.box-3{
+    background-color: gray  ;
+    color: #fff ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+
+}
+.box-3 > .imagenescontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+
+}
+.box-3 > .imagenescontainer img{
+    width: 300px;
+    margin: 10px;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+
+
+}
+.box-3 > .imagenescontainer img:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
