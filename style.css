@@ -140,6 +140,10 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.box-0 button{
+    background-color: #ec4c4c ; 
+    border: #ec4c4c;
+}
 .box-0 h1  {
     color: #fff;
     font-size: 18px;
@@ -201,6 +205,9 @@ background-size: cover;
     align-items: center;
     padding: 60px 0;
     
+}
+.box-2 a{
+    font-size: 35px;
 }
 
 .navbar{
