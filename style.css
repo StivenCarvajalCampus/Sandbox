@@ -196,21 +196,25 @@ background-size: cover;
     background-color: rgba(47, 45, 45, 0.7);
 }
 .cajas {
-    max-width: 900px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     
 }
 .caja{
-    width: 250px;
+    width: 350px;
     display: flex;
     margin:  20px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     transition: all 0.4s ease-in-out;
-    padding-right: 80px;
+    text-align: center;
+    padding: 0 15px;
+}
+.caja h3{
+    font-size: 27px;
 }
 .caja i{
     font-size: 60px;
