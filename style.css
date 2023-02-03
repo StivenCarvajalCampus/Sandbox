@@ -159,6 +159,22 @@ background-size: cover;
     max-width: 700px; 
     padding: 60px 0;
 }
+.box-1 a{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff !important;
+
+}
+.box-1 p{
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+.box-1 button{
+    background-color: #ffffff ; 
+    border: black; 
+    color: #0e0e0e; 
+    margin-top: 20px;
+}
 .box-1-contenido img {
     width: 250px;
     transition: all 0.4s ease-in-out;
